@@ -29,5 +29,8 @@
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
  NeoBundleCheck
+ 
 set number
 syntax on
+vnoremap . :norm.<CR>
+set tabstop=4 shiftwidth=4 expandtab
