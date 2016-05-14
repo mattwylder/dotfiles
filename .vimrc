@@ -15,10 +15,8 @@
   NeoBundleFetch 'Shougo/neobundle.vim'
 
 " My Bundles here:
- NeoBundle 'kballard/vim-swift', {
-         \ 'filetypes': 'swift',
-                 \ 'unite_sources': ['swift/device', 'swift/developer_dir']
-                        \}
+ NeoBundle 'toyamarinyon/vim-swift'
+ 
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
   call neobundle#end()
