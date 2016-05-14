@@ -32,8 +32,8 @@ NeoBundleCheck
 
 "Syntax Highlighting
 syntax on
-hi Identifier ctermfg=white
-hi Statement ctermfg=magenta
+hi Identifier ctermfg=white cterm=none
+hi Statement ctermfg=magenta cterm=none
 
 "Remap . in visual mode to redo
 vnoremap . :norm.<CR>
