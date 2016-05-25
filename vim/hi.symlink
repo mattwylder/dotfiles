@@ -1,0 +1,3 @@
+syntax on
+hi Identifier ctermfg=white cterm=none
+hi Statement ctermfg=magenta cterm=none
