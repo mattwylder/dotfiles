@@ -1,5 +1,0 @@
-" TODO: Link to Neobundle.symlink
-" link to remap.symlink
-" Link to hi.symlink
-
-set tabstop=4 shiftwidth=4 expandtab
