@@ -1,21 +1,21 @@
-" Note: Skip initialization for vim-tiny or vim-small.
- if 0 | endif
-"
-  if &compatible
-     set nocompatible               " Be iMproved
-      endif
+ " Note: Skip initialization for vim-tiny or vim-small.
+  if 0 | endif
+ "
+   if &compatible
+      set nocompatible               " Be iMproved
+       endif
 " Required:
- set runtimepath^=~/.vim/bundle/neobundle.vim/
+  set runtimepath^=~/.vim/bundle/neobundle.vim/
 
 " Required:
   call neobundle#begin(expand('~/.vim/bundle/'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
-<<<<<<< HEAD
   NeoBundleFetch 'Shougo/neobundle.vim'
 
 " My Bundles here:
+ NeoBundle 'tpope/vim-fugitive'
  NeoBundle 'toyamarinyon/vim-swift' 
 
 " Refer to |:NeoBundle-examples|.
@@ -29,11 +29,10 @@
 " this will conveniently prompt you to install them.
  NeoBundleCheck
  
-"set number
 syntax on
 hi Identifier ctermfg=white cterm=none
 hi Statement ctermfg=magenta cterm=none
 vnoremap . :norm.<CR>
-
-"Tab configuration
 set tabstop=4 shiftwidth=4 expandtab
+set number
+set relativenumber
