@@ -12,10 +12,6 @@ unbind C-b
 set -g prefix C-a
 bind C-a send-prefix
 
-#bell
-set -g bell-action current
-set -g visual-bell on
-
 #colors
 set -g pane-active-border-fg cyan
 set -g pane-border-fg white
