@@ -1,7 +1,7 @@
 #set shell
 set -g default-shell /bin/zsh
 
-#create session could
+#create session could 
 new-session -n client
 
 #vim keys in scroll mode

@@ -18,6 +18,7 @@
  NeoBundle 'tpope/vim-fugitive'
  NeoBundle 'toyamarinyon/vim-swift' 
  NeoBundle 'scrooloose/nerdtree'
+ NeoBundle 'chrisbra/vim-show-whitespace'
 
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
@@ -34,7 +35,7 @@ syntax on
 hi Identifier ctermfg=white cterm=none
 hi Statement ctermfg=magenta cterm=none
 vnoremap . :norm.<CR>
-set tabstop=4 shiftwidth=4 expandtab
+set shiftwidth=4 expandtab
 set number
 set relativenumber
 set backspace=indent,eol,start
