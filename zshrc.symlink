@@ -78,6 +78,7 @@ if [[ ! -n "${TMUX-}" ]]; then
         exit 0
     fi
 fi
+eval $(thefuck --alias)
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
