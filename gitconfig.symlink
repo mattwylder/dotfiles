@@ -7,7 +7,7 @@
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [user]
-	email = matt.wylder@gpshopper.com
+	email = matt@wylder.us
 	name = Matt Wylder
 [push]
 	default = simple
