@@ -15,4 +15,5 @@ Then make a symlink to the home folder. Remember, the `.symlink` files in this r
 ```
 ln -s ~/Developer/dotfiles/zshrc.symlink ~/.zshrc
 ln -s ~/Developer/dotfiles/gitconfig.symlink ~/.gitconfig
+ln -s ~/Developer/dotfiles/vimrc.symlink ~/.vimrc
 ```
