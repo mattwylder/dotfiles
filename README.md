@@ -24,5 +24,8 @@ Make sure to install Homebrew and `thefuck`.
 brew install thefuck
 ```
 
+## Pushing over SSH
+
 Finally, make sure to keep your repo up to date with changes from work laptops and personal laptops. We don't change this stuff very often anyway, which has been part of the issue. [Setup SSH on your new device.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) At your last two jobs, the problem was with the corporate network. The instructions and your ability to follow them were not at issue. They're pretty simple. Try it at home off the VPN.
 
+We have to figure out a way to juggle work and personal emails in .gitconfig... for now just leave the staging dirty after all setup is complete.
