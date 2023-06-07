@@ -1,7 +1,7 @@
 # Usage
 Hello, you forget how to do this every time you get a new computer. Next time you'll remember.
 
-First, install Oh My Zsh. Your theme doesn't work with zsh out of the box.
+First, install Oh My Zsh. Oh My Zsh powers the themes, tab completion, and vim tools you take for granted.
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
